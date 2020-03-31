@@ -9,25 +9,24 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600&dis
 // Navbar ======================================================================
 
 .navbar {
-  height: 10vh;
-  position: sticky;
-  top: 0;
+  //border: 10px solid green;
   font-size: $font-size-sm;
   text-transform: uppercase;
   font-weight: 600;
+  height: 10vh;
+
+  //clip-path: polygon(0 25%, 100% 0, 100% 75%, 0 100%);
+
   //border: 1px solid red;
 
   &-nav {
     margin: auto;
     .nav-link {
+      //border: 1px solid red;
       padding-top: 0.715rem;
       padding-bottom: 0.715rem;
+      font-size: 1rem;
     }
-  }
-
-  &-brand {
-    //border: 1px solid red;
-    margin-right: 2rem;
   }
 }
 

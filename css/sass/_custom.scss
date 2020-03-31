@@ -2,58 +2,73 @@
 html {
   scroll-behavior: smooth;
 }
-.sticky {
-  position: sticky;
-  top: 0rem;
-  font-size: 2rem;
-}
 
 .container-fluid {
-  //border: 10px solid red;
   height: auto;
-  padding: 1.2rem;
+  padding: 2rem;
 }
 
 .header {
+  //border: 1px solid green;
+  //clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
   background-color: rgba(26, 26, 26);
   height: 85vh;
+
   background-image: linear-gradient(
       to bottom,
-      rgba(26, 26, 26, 0.3),
+      rgba(26, 26, 26, 0.2),
       rgba(236, 238, 239, 0.1)
     ),
     url("../../img/header.jpg");
-  background-size: cover;
-  background-position: top;
-  clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 100%);
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 95.9vw;
+  height: 10vh;
+}
 //SECTIONS
 .about {
-  margin-top: -1rem;
-  height: 95vh;
+  //border: 1px solid green;
+  height: 100vh;
   background-color: #f7f7f7;
 }
 .about-container {
-  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
 
   &__a {
-    border: 1px solid teal;
-    width: 40%;
-    height: 40%;
+    .about-img {
+      width: 40vw;
+      height: 50vw;
+    }
   }
   &__b {
-    border: 1px solid red;
     width: 40%;
   }
 }
 
+.services {
+  //border: 1px solid green;
+  height: 95vh;
+  background-color: rgb(235, 235, 235);
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+  margin-top: -3rem;
+}
 .services-container {
-  border: 1px solid black;
+  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,13 +96,10 @@ html {
   }
 }
 
-.services {
-  height: 95vh;
-  background-color: teal;
-}
-
 .projects {
   height: 95vh;
+  margin-top: -3rem;
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
   background-color: #f7f7f7;
 }
 
@@ -98,23 +110,16 @@ html {
 
 .contact {
   height: 95vh;
-  background-color: #f7f7f7;
+  background-color: rgb(235, 235, 235);
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+  margin-top: -3rem;
 }
 
-///header
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #2c3e50;
-  color: #fff;
+  height: 40vh;
+  background-color: $gray-900;
 }
 
-.box-svg {
-  width: 25rem;
-  height: 25rem;
-}
-
-.about-img {
-  width: 15rem;
-  height: 15rem;
+.kct {
+  background-color: #f7f7f7;
 }
