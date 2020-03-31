@@ -1,0 +1,78 @@
+.container-fluid {
+  //border: 10px solid red;
+  height: auto;
+  padding: 0.5rem 1.5rem;
+}
+
+.sticky {
+  position: sticky;
+  top: 0rem;
+  font-size: 2rem;
+}
+.wrapper {
+  font-size: 2rem;
+}
+
+.b {
+  position: relative;
+}
+
+.a {
+  background-color: #343a40;
+  position: absolute;
+  width: 100%;
+  height: 5rem;
+  top: 10;
+  left: 0;
+  height: 10vh;
+  background-size: cover;
+  background-position: top;
+  z-index: 10;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 5%);
+
+  //border: 1px solid black;
+  //clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.header {
+  background-color: teal;
+  height: 90vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(26, 26, 26, 0.3),
+      rgba(236, 238, 239, 0.1)
+    ),
+    url("../../img/header.jpg");
+  background-size: cover;
+  background-position: top;
+  //border: 1px solid black;
+  //clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+
+//SECTIONS
+.about {
+  height: 95vh;
+  background-color: black;
+}
+
+.services {
+  height: 95vh;
+  background-color: teal;
+}
+
+.projects {
+  height: 95vh;
+  background-color: orangered;
+}
+
+.skills {
+  height: 95vh;
+  background-color: pink;
+}
+
+.contact {
+  height: 95vh;
+  background-color: black;
+}
+
+///header

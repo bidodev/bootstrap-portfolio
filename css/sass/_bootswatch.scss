@@ -1,7 +1,6 @@
 // Lux 4.3.1
 // Bootswatch
 
-
 // Variables ===================================================================
 
 $web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600&display=swap" !default;
@@ -10,24 +9,31 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600&dis
 // Navbar ======================================================================
 
 .navbar {
+  position: sticky;
+  top: 0;
   font-size: $font-size-sm;
   text-transform: uppercase;
   font-weight: 600;
+  //border: 1px solid red;
 
   &-nav {
+    width: 25vw;
+    //border: 1px solid red;
+    margin-left: auto;
     .nav-link {
-      padding-top: .715rem;
-      padding-bottom: .715rem;
+      padding-top: 0.715rem;
+      padding-bottom: 0.715rem;
     }
   }
 
   &-brand {
+    //border: 1px solid red;
     margin-right: 2rem;
   }
 }
 
 .bg-primary {
-  background-color: theme-color("primary") !important;
+  background-color: theme-color("primary");
 }
 
 .bg-light {
@@ -44,6 +50,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600&dis
 
 .nav-item {
   margin-right: 2rem;
+  //border: 1px solid red;
 }
 
 // Buttons =====================================================================
@@ -98,7 +105,12 @@ body {
   letter-spacing: 1px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -115,12 +127,14 @@ th {
 }
 
 .table {
-  th, td {
+  th,
+  td {
     padding: 1.5rem;
   }
 
   &-sm {
-    th, td {
+    th,
+    td {
       padding: 0.75rem;
     }
   }
@@ -128,9 +142,7 @@ th {
 
 // Forms =======================================================================
 
-
 .custom-switch {
-
   .custom-control-label {
     &::after {
       top: calc(0.15625rem + 2px);
@@ -163,14 +175,23 @@ th {
 // Containers ==================================================================
 
 .list-group-item {
-  h1, h2, h3, h4, h5, h6,
-  .h1, .h2, .h3, .h4, .h5, .h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
     color: inherit;
   }
 }
 
 .card {
-
   &-title,
   &-header {
     color: inherit;
