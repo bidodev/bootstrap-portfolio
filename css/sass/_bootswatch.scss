@@ -9,14 +9,13 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600&dis
 // Navbar ======================================================================
 
 .navbar {
-  height: 11vh;
+  height: 10vh;
   position: sticky;
   top: 0;
   font-size: $font-size-sm;
   text-transform: uppercase;
   font-weight: 600;
   //border: 1px solid red;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
 
   &-nav {
     margin: auto;

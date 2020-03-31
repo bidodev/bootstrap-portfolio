@@ -2,6 +2,11 @@
 html {
   scroll-behavior: smooth;
 }
+.sticky {
+  position: sticky;
+  top: 0rem;
+  font-size: 2rem;
+}
 
 .container-fluid {
   //border: 10px solid red;
@@ -9,15 +14,9 @@ html {
   padding: 1.2rem;
 }
 
-.sticky {
-  position: sticky;
-  top: 0rem;
-  font-size: 2rem;
-}
-
 .header {
   background-color: rgba(26, 26, 26);
-  height: 89vh;
+  height: 85vh;
   background-image: linear-gradient(
       to bottom,
       rgba(26, 26, 26, 0.3),
@@ -26,6 +25,7 @@ html {
     url("../../img/header.jpg");
   background-size: cover;
   background-position: top;
+  clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 100%);
 }
 
 //SECTIONS
@@ -33,6 +33,52 @@ html {
   margin-top: -1rem;
   height: 95vh;
   background-color: #f7f7f7;
+}
+.about-container {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  &__a {
+    border: 1px solid teal;
+    width: 40%;
+    height: 40%;
+  }
+  &__b {
+    border: 1px solid red;
+    width: 40%;
+  }
+}
+
+.services-container {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  &__a {
+    border: 1px solid black;
+    width: 25%;
+    height: 25%;
+  }
+  &__b {
+    border: 1px solid red;
+    width: 25%;
+    height: 25%;
+  }
+  &__c {
+    border: 1px solid black;
+    width: 25%;
+    height: 25%;
+  }
+  &__d {
+    border: 1px solid red;
+    width: 25%;
+    height: 25%;
+  }
 }
 
 .services {
