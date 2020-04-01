@@ -1,0 +1,10 @@
+//BASE
+//reset and default behaviour for the whole page
+html {
+  //smooth transation between sections
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+}

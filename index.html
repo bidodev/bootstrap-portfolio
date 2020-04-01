@@ -8,23 +8,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.css" />
 
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="./css/fontawesome/css/all.css" />
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/sass/main.scss" />
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
-    <!-- Place your kit's code here -->
-    <script
-      src="https://kit.fontawesome.com/c37eed92f1.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
+
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- header section -->
     <div class="header">
       <div class="header__intro">
-        <div class="heading">Hey! I'm <span>Claudinei Bido</span></div>
-        <div class="heading-muted">
+        <div class="header__intro-main">
+          Hey! I'm <span>Claudinei Bido</span>
+        </div>
+        <div class="header__intro-muted">
           fullstack web developer, sysadmin and curious!
         </div>
       </div>
@@ -42,14 +40,6 @@
         </video>
       </div>
     </div>
-    <script>
-      //play video
-      const myVideo = document.getElementById("video_background");
-      setTimeout(function() {
-        myVideo.play();
-      }, 2000);
-    </script>
-
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
       <button
         class="navbar-toggler"
@@ -227,6 +217,11 @@
       </footer>
       <!-- Footer -->
     </footer>
+
+    <!-- Javascript -->
     <script src="./js/index.js"></script>
+    <script src="./js/vendors/jquery.min.js"></script>
+    <script src="./js/vendors/popper.min.js"></script>
+    <script src="./js/vendors/bootstrap.min.js"></script>
   </body>
 </html>

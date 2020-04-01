@@ -1,9 +1,15 @@
-@import "./variables";
-@import "./bootswatch";
-@import "./custom";
-@import "./icons";
+@import "./base/base";
+@import "./base/scrollbar";
+@import "./base/variables";
+@import "./base/utilities";
 
-@import "./components";
-@import "./scrollbar";
+@import "./components/bg-video";
+@import "./others/animations";
+@import "./others/icons";
 
-@import "./form";
+/* import scss files whose render the page layout*/
+@import "./layout/sections";
+@import "./layout/header";
+@import "./layout/navbar";
+@import "./layout/footer";
+@import "./layout/contact/form";

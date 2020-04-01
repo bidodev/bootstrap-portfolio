@@ -13,3 +13,10 @@ function myFunction() {
     navbar.classList.remove("fixed-top");
   }
 }
+
+//play video
+const myVideo = document.getElementById("video_background");
+
+setTimeout(function() {
+  myVideo.play();
+}, 2500);

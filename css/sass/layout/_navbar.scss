@@ -1,0 +1,40 @@
+// Navbar ======================================================================
+
+.navbar {
+  //border: 1px solid green;
+  max-width: 100vw;
+  max-height: 10vh;
+
+  &-nav {
+    //border: 1px solid red;
+    margin: auto;
+    .nav-link {
+      //border: 1px solid white;
+      padding-top: 0.7rem;
+      padding-bottom: 0.7rem;
+      font-size: 1.15rem;
+      font-weight: 600;
+    }
+  }
+}
+
+.bg-primary {
+  background-color: theme-color("primary");
+}
+
+.bg-light {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  &.navbar-bottom-top {
+    border-width: 1px 0 0 0;
+  }
+}
+
+.nav-item {
+  margin-right: 2rem;
+  //border: 1px solid red;
+}
+
+.fixed-top {
+  margin: auto;
+}

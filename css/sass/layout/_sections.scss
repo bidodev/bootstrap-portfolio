@@ -1,0 +1,123 @@
+//SECTIONS
+.about {
+  //border: 1px solid green;
+  height: 95vh;
+  background-color: #f7f7f7;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  &__a {
+    .about-img {
+      width: 40vw;
+      height: 50vw;
+    }
+  }
+  &__b {
+    width: 40%;
+  }
+}
+
+.services {
+  //border: 1px solid green;
+  height: 95vh;
+  background-color: rgb(235, 235, 235);
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+  margin-top: -3rem;
+}
+.services-container {
+  //border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  &__a {
+    border: 1px solid black;
+    width: 25%;
+    height: 25%;
+  }
+  &__b {
+    //border: 1px solid red;
+    width: 25%;
+    height: 25%;
+  }
+  &__c {
+    border: 1px solid black;
+    width: 25%;
+    height: 25%;
+  }
+  &__d {
+    border: 1px solid red;
+    width: 25%;
+    height: 25%;
+  }
+}
+
+.projects {
+  height: 95vh;
+  margin-top: -3rem;
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pj-container {
+  //border: 1px solid red;
+  width: 50rem;
+  height: 20rem;
+  background-color: teal;
+}
+
+.contact {
+  //border: 10px solid green;
+
+  height: 70vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(26, 26, 26, 0.2),
+    rgba(236, 238, 239, 0.1)
+  );
+  //clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container {
+  width: 90vw;
+  height: 70vh;
+  //border: 1px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container-img {
+  //border: 1px solid red;
+  width: 70%;
+  height: 72%;
+  background-image: linear-gradient(
+      105deg,
+      rgba($white, 0.9) 0%,
+      rgba($white, 0.9) 50%,
+      transparent 50%
+    ),
+    url(../../img/contact-us.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 2px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+}
+
+.contact-form {
+  width: 50%;
+  padding: 6rem;
+  //border: 1px solid green;
+}
