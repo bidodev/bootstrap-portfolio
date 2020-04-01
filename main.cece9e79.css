@@ -151,6 +151,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
+  z-index: -2;
 }
 .header__intro {
   width: 50vw;
@@ -159,20 +160,52 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
 }
 
 .heading {
-  font-size: 3rem;
-  opacity: 1;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 3.5rem;
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
 }
 
 .heading-muted {
-  color: black;
+  color: rgba(26, 26, 26, 0.6);
   font-size: 1rem;
   text-transform: uppercase;
+  letter-spacing: 2px;
+  animation-name: moveInRight;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
 }
 
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 .about {
   height: 95vh;
   background-color: #f7f7f7;
@@ -379,6 +412,7 @@ footer.page-footer a {
   width: 100%;
   opacity: 0.4;
   overflow: hidden;
+  z-index: -1;
 }
 .bg-video__content {
   height: 100%;
