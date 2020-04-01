@@ -21,12 +21,13 @@
     <div class="header">
       <div class="header__intro">
         <div class="heading">Hey! I'm <span>Claudinei Bido</span></div>
-        <div class="heading-muted"> fullstack web developer, sysadmin and curious!</div>
-        
+        <div class="heading-muted">
+          fullstack web developer, sysadmin and curious!
+        </div>
       </div>
-      
+
       <div class="bg-video">
-          <video id="video_background" class="bg-video__content" poster="/cover.d88b0115.jpg" preload="none" muted="" loop="">
+        <video id="video_background" class="bg-video__content" poster="/cover.d88b0115.jpg" preload="none" muted="" loop="">
           <source src="/video.c563f1fa.mp4" type="video/mp4">
         </video>
       </div>
@@ -92,20 +93,40 @@ setTimeout(function () {
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sit accusamus
       dicta enim suscipit. Quos quia repudiandae asperiores beatae deserunt.
     </section>
-    <section id="projects" class="container-fluid projects">
-      <!-- <div class="pj-container">
-        <!-- <p class="lead">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-          voluptate maiores explicabo harum deserunt excepturi sequi dolore
-          fugit sapiente nihil.
-        </p> -->
-       
-    </section>
+    <section id="projects" class="container-fluid projects"></section>
+
+    <!-- section contact-me -->
     <section id="contact" class="container-fluid contact">
       <div class="contact-container">
-        <div class="message"></div>
+        <div class="contact-container-img">
+          <div class="form">
+            <div class="u-margin-bottom-small">
+              <h2 class="heading-secondary">
+                Send a Message
+              </h2>
+            </div>
+            <form action="#">
+              <div class="form__group">
+                <input type="text" class="form__input" placeholder="Full Name" id="name" required="">
+                <label for="name" class="form__label"></label>
+              </div>
+              <div class="form__group">
+                <input type="email" class="form__input" placeholder="Email Adress" id="email" required="">
+                <label for="email" class="form__label"></label>
+              </div>
+              <div class="form__group">
+                <textarea class="form__textarea" name="" id="" cols="20" rows="5" placeholder="Message"></textarea>
+                <label for="message" class="form__label"></label>
+              </div>
+              <div class="form__group">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
+
     <footer class="footer">
       <!-- Footer -->
       <footer class="page-footer font-small bg-primary">
