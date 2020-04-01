@@ -1,4 +1,4 @@
-//video
+//video background
 
 .bg-video {
   position: absolute;
@@ -8,10 +8,49 @@
   width: 100%;
   opacity: 0.4;
   overflow: hidden;
+  z-index: -1;
 
   &__content {
     height: 100%;
     width: 100%;
     object-fit: cover;
+  }
+}
+
+//button
+.btn:link,
+.btn:visited {
+}
+
+.btn-white {
+  width: 10rem;
+  background-color: #1a1a1a;
+  color: #1a1a1a;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+//utilities
+.u-margin-bottom-small {
+  margin-bottom: 0.5rem !important;
+}
+
+//typography
+.heading-secondary {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to top, #1a1a1a, #f1f1f1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 0.13rem;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(black, 0.2);
   }
 }

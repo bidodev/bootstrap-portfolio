@@ -1,0 +1,29 @@
+.form {
+  //border: 1px solid red;
+  width: 30vw;
+  height: 50vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  &__group {
+    margin-top: 1rem;
+  }
+  &__input,
+  &__textarea {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 2px;
+    background-color: rgba($color: #ccc, $alpha: 0.3);
+    border: none;
+    border-bottom: 1px solid transparent;
+    width: 60%;
+  }
+  &__textarea,
+  &__input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba($color: #000000, $alpha: 0.1);
+    border-bottom: 1px solid black;
+  }
+}
