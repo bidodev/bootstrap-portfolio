@@ -165,9 +165,7 @@ body {
 .heading {
   color: rgba(255, 255, 255, 0.7);
   font-size: 3.5rem;
-  animation-name: moveInLeft;
-  animation-duration: 2s;
-  animation-timing-function: ease-out;
+  animation: moveInLeft 2s ease-out;
 }
 
 .heading-muted {
@@ -175,9 +173,7 @@ body {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  animation-name: moveInRight;
-  animation-duration: 2s;
-  animation-timing-function: ease-out;
+  animation: moveInRight 2s ease-out;
 }
 
 @keyframes moveInLeft {
