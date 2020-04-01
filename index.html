@@ -26,11 +26,16 @@
       </div>
       
       <div class="bg-video">
-          <video id="video_background" class="bg-video__content" poster="/cover.d88b0115.jpg" preload="true" muted="" loop="">
+          <video id="video_background" class="bg-video__content" poster="/cover.d88b0115.jpg" preload="none" muted="" loop="">
           <source src="/video.c563f1fa.mp4" type="video/mp4">
         </video>
       </div>
     </div>
+    <script>//play video
+var myVideo = document.getElementById("video_background");
+setTimeout(function () {
+  myVideo.play();
+}, 2000);</script>
 
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
