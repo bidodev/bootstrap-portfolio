@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../usr/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/bootstrap.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../../usr/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/fontawesome/css/all.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../usr/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../webfonts/fa-brands-400.eot":[["fa-brands-400.826f33cf.eot","css/fontawesome/webfonts/fa-brands-400.eot"],"css/fontawesome/webfonts/fa-brands-400.eot"],"./../webfonts/fa-brands-400.woff2":[["fa-brands-400.052d71ec.woff2","css/fontawesome/webfonts/fa-brands-400.woff2"],"css/fontawesome/webfonts/fa-brands-400.woff2"],"./../webfonts/fa-brands-400.woff":[["fa-brands-400.c1e415d4.woff","css/fontawesome/webfonts/fa-brands-400.woff"],"css/fontawesome/webfonts/fa-brands-400.woff"],"./../webfonts/fa-brands-400.ttf":[["fa-brands-400.f2019c15.ttf","css/fontawesome/webfonts/fa-brands-400.ttf"],"css/fontawesome/webfonts/fa-brands-400.ttf"],"./../webfonts/fa-brands-400.svg":[["fa-brands-400.c8dce17e.svg","css/fontawesome/webfonts/fa-brands-400.svg"],"css/fontawesome/webfonts/fa-brands-400.svg"],"./../webfonts/fa-regular-400.eot":[["fa-regular-400.01aea7ff.eot","css/fontawesome/webfonts/fa-regular-400.eot"],"css/fontawesome/webfonts/fa-regular-400.eot"],"./../webfonts/fa-regular-400.woff2":[["fa-regular-400.dd442d37.woff2","css/fontawesome/webfonts/fa-regular-400.woff2"],"css/fontawesome/webfonts/fa-regular-400.woff2"],"./../webfonts/fa-regular-400.woff":[["fa-regular-400.8e805f0d.woff","css/fontawesome/webfonts/fa-regular-400.woff"],"css/fontawesome/webfonts/fa-regular-400.woff"],"./../webfonts/fa-regular-400.ttf":[["fa-regular-400.a9b5e2f0.ttf","css/fontawesome/webfonts/fa-regular-400.ttf"],"css/fontawesome/webfonts/fa-regular-400.ttf"],"./../webfonts/fa-regular-400.svg":[["fa-regular-400.c79d707e.svg","css/fontawesome/webfonts/fa-regular-400.svg"],"css/fontawesome/webfonts/fa-regular-400.svg"],"./../webfonts/fa-solid-900.eot":[["fa-solid-900.f1b52005.eot","css/fontawesome/webfonts/fa-solid-900.eot"],"css/fontawesome/webfonts/fa-solid-900.eot"],"./../webfonts/fa-solid-900.woff2":[["fa-solid-900.224ca681.woff2","css/fontawesome/webfonts/fa-solid-900.woff2"],"css/fontawesome/webfonts/fa-solid-900.woff2"],"./../webfonts/fa-solid-900.woff":[["fa-solid-900.8079c6f4.woff","css/fontawesome/webfonts/fa-solid-900.woff"],"css/fontawesome/webfonts/fa-solid-900.woff"],"./../webfonts/fa-solid-900.ttf":[["fa-solid-900.952522bb.ttf","css/fontawesome/webfonts/fa-solid-900.ttf"],"css/fontawesome/webfonts/fa-solid-900.ttf"],"./../webfonts/fa-solid-900.svg":[["fa-solid-900.35adc20a.svg","css/fontawesome/webfonts/fa-solid-900.svg"],"css/fontawesome/webfonts/fa-solid-900.svg"],"_css_loader":"../../../../usr/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -394,4 +394,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/bootstrap.82e54794.js.map
+//# sourceMappingURL=/all.df339f00.js.map

@@ -3619,7 +3619,7 @@ fieldset:disabled a.btn {
 
 .btn-lg,
 .btn-group-lg > .btn {
-  padding: 2rem 2rem;
+  padding: 1.5rem 1.5rem;
   font-size: 1.09375rem;
   line-height: 1.5;
   border-radius: 0;
