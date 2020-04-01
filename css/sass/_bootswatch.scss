@@ -10,7 +10,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600&dis
 
 .navbar {
   //border: 10px solid green;
-  max-width: 95.9vw;
+  max-width: 100vw;
   font-size: $font-size-sm;
   text-transform: uppercase;
   font-weight: 600;
@@ -26,7 +26,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600&dis
       //border: 1px solid red;
       padding-top: 0.715rem;
       padding-bottom: 0.715rem;
-      font-size: 1rem;
+      font-size: 1.15rem;
     }
   }
 }
