@@ -7,8 +7,9 @@ const sticky = navbar.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
+    navbar.classList.add("fixed-top");
   } else {
-    navbar.classList.remove("sticky");
+    //add bootstrap fixed-top class
+    navbar.classList.remove("fixed-top");
   }
 }
