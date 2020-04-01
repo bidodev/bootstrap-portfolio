@@ -416,6 +416,16 @@ footer.page-footer a {
   object-fit: cover;
 }
 
+.btn-white {
+  margin-top: 2rem;
+  width: 10rem;
+  background-color: white;
+  color: #777;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
 html {
   overflow: scroll;
   overflow-x: hidden;
