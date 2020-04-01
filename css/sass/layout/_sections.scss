@@ -5,6 +5,10 @@
   background-color: #f7f7f7;
 }
 
+.lead {
+  letter-spacing: 0.6px;
+}
+
 .about-container {
   display: flex;
   align-items: center;
@@ -18,7 +22,9 @@
     }
   }
   &__b {
+    //border: 1px solid green;
     width: 40%;
+    height: 60%;
   }
 }
 

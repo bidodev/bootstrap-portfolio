@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <title>Welcome to my World</title>
     <meta charset="utf-8" />
@@ -63,11 +63,12 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#projects">Projects</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
@@ -75,6 +76,7 @@
       </div>
     </nav>
 
+    <!-- start about section -->
     <section id="about" class="container-fluid about">
       <div class="about-container">
         <div class="about-container__a">
@@ -86,30 +88,52 @@
           <div class="jumbotron">
             <h1 class="display-3">Hello, world!</h1>
             <p class="lead">
-              This is a simple hero unit, a simple jumbotron-style component for
-              calling extra attention to featured content or information.
+              I am Claudinei. I am a Web Developer based in Berlin, Germany. I
+              worked for several years as sysadmin in Brazil. Now I have taken
+              the path of a web developer, to bring ideas and the future to you.
             </p>
             <hr class="my-4" />
             <p>
-              It uses utility classes for typography and spacing to space
-              content out within the larger container.
+              If you want to hire me or would like to know more about my work
+              please send me a message.
             </p>
-            <p class="lead">
-              <a class="btn btn-primary btn-lg" href="#" role="button"
-                >Learn more</a
-              >
-            </p>
+            <a
+              class="btn btn-primary btn-lg u-margin-top-medium"
+              href="#contact"
+              role="button"
+              >Contact Me</a
+            >
           </div>
         </div>
       </div>
+
+      <!-- start projects sections -->
+
+      <!-- start services sections -->
     </section>
     <section id="services" class="container-fluid services">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sit accusamus
-      dicta enim suscipit. Quos quia repudiandae asperiores beatae deserunt.
+      <div class="page__under flex-evenly">
+        <h2 class="heading-secondary u-margin-bottom-huge">
+          provided services
+        </h2>
+        <div class="alert alert-dismissible alert-warning">
+          <button type="button" class="close" data-dismiss="alert">
+            &times;
+          </button>
+          <h4 class="alert-heading">Warning!</h4>
+          <p class="mb-0">
+            This page is currently unavailable! If Covid-19 doesn't catch me
+            I'll finish this page soon!
+            <a href="#" class="alert-link"
+              >Aside, best check yourself, you're not looking too good</a
+            >.
+          </p>
+        </div>
+        <img class="page__under-img" src="./img/under.svg" alt="" />
+      </div>
     </section>
-    <section id="projects" class="container-fluid projects"></section>
 
-    <!-- section contact-me -->
+    <!-- start section contact-me -->
     <section id="contact" class="container-fluid contact">
       <div class="contact-container">
         <div class="contact-container-img">
@@ -160,62 +184,57 @@
       </div>
     </section>
 
-    <footer class="footer">
-      <!-- Footer -->
-      <footer class="page-footer font-small bg-primary">
-        <!-- Footer Elements -->
-        <div class="container">
-          <!-- Grid row-->
-          <div class="row">
-            <!-- Grid column -->
-            <div class="col-md-12 py-5">
-              <div class="mb-5 flex-center">
-                <!-- Facebook -->
-                <a class="fb-ic">
-                  <i
-                    class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"
-                  >
-                  </i>
-                </a>
-                <!-- Twitter -->
-                <a class="tw-ic">
-                  <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
-                  </i>
-                </a>
-                <!--Linkedin -->
-                <a class="li-ic">
-                  <i
-                    class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"
-                  >
-                  </i>
-                </a>
-                <!--Instagram-->
-                <a class="ins-ic">
-                  <i
-                    class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"
-                  >
-                  </i>
-                </a>
-                <!--Pinterest-->
-                <a class="pin-ic">
-                  <i class="fab fa-github fa-lg white-text fa-2x"> </i>
-                </a>
-              </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-primary">
+      <!-- Footer Elements -->
+      <div class="container">
+        <!-- Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-12 py-5">
+            <div class="mb-5 flex-center">
+              <!-- Facebook -->
+              <a class="fb-ic">
+                <i
+                  class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"
+                >
+                </i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic">
+                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
+                </i>
+              </a>
+              <!--Linkedin -->
+              <a class="li-ic">
+                <i
+                  class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"
+                >
+                </i>
+              </a>
+              <!--Instagram-->
+              <a class="ins-ic">
+                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
+                </i>
+              </a>
+              <!--Pinterest-->
+              <a class="pin-ic">
+                <i class="fab fa-github fa-lg white-text fa-2x"> </i>
+              </a>
             </div>
-            <!-- Grid column -->
           </div>
-          <!-- Grid row-->
+          <!-- Grid column -->
         </div>
-        <!-- Footer Elements -->
+        <!-- Grid row-->
+      </div>
+      <!-- Footer Elements -->
 
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">
-          © 2020 Copyright:
-          <a href="https://bido.dev"> bido.dev</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
-      <!-- Footer -->
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a href="https://bido.dev"> bido.dev</a>
+      </div>
+      <!-- Copyright -->
     </footer>
 
     <!-- Javascript -->

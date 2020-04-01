@@ -3,23 +3,16 @@
   margin-bottom: 0.5rem;
 }
 
-//typography
-.heading-secondary {
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  display: inline-block;
-  background-image: linear-gradient(to top, #1a1a1a, #f1f1f1);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  letter-spacing: 0.13rem;
-  transition: all 0.2s;
+.u-margin-bottom-medium {
+  margin-bottom: 2rem;
+}
 
-  &:hover {
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
-    text-shadow: 0.5rem 1rem 2rem rgba(black, 0.2);
-  }
+.u-margin-bottom-huge {
+  margin-bottom: 5rem;
+}
+
+.u-margin-top-medium {
+  margin-top: 1.5rem;
 }
 
 // Buttons =====================================================================
@@ -82,37 +75,22 @@ h6 {
   color: $body-color !important;
 }
 
-// Tables ======================================================================
-
-th {
-  font-size: $font-size-sm;
+//typography
+.heading-secondary {
+  font-size: 2.2rem;
   text-transform: uppercase;
-}
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to top, #1a1a1a, #f1f1f1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 0.13rem;
+  transition: all 0.2s;
 
-.table {
-  th,
-  td {
-    padding: 1.5rem;
-  }
-
-  &-sm {
-    th,
-    td {
-      padding: 0.75rem;
-    }
-  }
-}
-
-// Forms =======================================================================
-
-.custom-switch {
-  .custom-control-label {
-    &::after {
-      top: calc(0.15625rem + 2px);
-      left: calc(-2.25rem + 2px);
-      width: calc(1rem - 4px);
-      height: calc(1rem - 4px);
-    }
+  &:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(black, 0.2);
   }
 }
 
@@ -165,6 +143,14 @@ th {
   font-size: 0.9rem;
 }
 
+.flex-evenly {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
 // Flex-center ==================================================================
 .flex-center {
   display: flex;
@@ -187,4 +173,69 @@ th {
 
 .flex-center ul li:last-of-type {
   margin-bottom: 0;
+}
+
+.page__under-img {
+  width: 75vh;
+  height: 55vh;
+}
+
+.portfolio-item {
+  //border: 1px solid green;
+  height: 38vh;
+  width: 20vw;
+}
+.portfolio-item .portfolio-thumb {
+  //border: 1px solid red;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-item .portfolio-thumb img {
+  width: 100%;
+  height: 100%;
+}
+.portfolio-item .portfolio-thumb .portfolio-overlay {
+  background-color: #343a40;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+.portfolio-item .portfolio-thumb .portfolio-overlay h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border-bottom: 1px solid white;
+}
+.portfolio-item .portfolio-thumb .portfolio-overlay a.expand {
+  margin-top: 15px;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+}
+.portfolio-item .portfolio-thumb .portfolio-overlay a.expand i {
+  line-height: 36px;
+}
+.portfolio-item .portfolio-thumb:hover .portfolio-overlay {
+  opacity: 1;
+  visibility: visible;
 }
