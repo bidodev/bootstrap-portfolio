@@ -1,12 +1,12 @@
 //SECTIONS
 .about {
-  //border: 1px solid green;
-  height: 95vh;
+  //border: 10px solid green;
+  height: 100vh;
   background-color: #f7f7f7;
 }
 
 .lead {
-  letter-spacing: 0.6px;
+  letter-spacing: 0.8px;
 }
 
 .about-container {
@@ -30,10 +30,10 @@
 
 .services {
   //border: 1px solid green;
-  height: 95vh;
-  background-color: rgb(235, 235, 235);
+  height: 100vh;
+  background-color: #f7f7f7;
   clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
-  margin-top: -3rem;
+  margin-top: -5vh;
 }
 .services-container {
   //border: 1px solid red;
@@ -65,10 +65,11 @@
 }
 
 .projects {
-  height: 95vh;
-  margin-top: -3rem;
+  height: 100vh;
   clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
-  background-color: #f7f7f7;
+  background-color: #ebebeb;
+  margin-top: -5vh;
+
   display: flex;
   justify-content: center;
   align-items: center;

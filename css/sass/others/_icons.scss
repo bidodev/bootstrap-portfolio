@@ -1,7 +1,13 @@
+/**
+ * icons.scss
+ *
+ * Here you can find the styling for the icons. The first group select all the common properties.
+ */
+
 .fa-twitter,
 .fa-instagram,
 .fa-github,
-.fa-facebook-f,
+.fa-facebook,
 .fa-linkedin-in {
   transition: all 0.2s ease;
 
@@ -9,5 +15,23 @@
     opacity: 0.8;
     transform: scale(1.2);
     cursor: pointer;
+  }
+}
+
+.fa-twitter {
+  &:hover {
+    color: #1da1f2;
+  }
+}
+
+.fa-github {
+  &:hover {
+    color: #ccc;
+  }
+}
+
+.fa-linkedin-in {
+  &:hover {
+    color: #fff;
   }
 }

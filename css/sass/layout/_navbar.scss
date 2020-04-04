@@ -35,6 +35,10 @@
   //border: 1px solid red;
 }
 
+//navbar class fixed on the top after scrooling
 .fixed-top {
+  position: sticky;
   margin: auto;
+  //border: 1px solid red;
+  box-shadow: 0px 0.7rem 1.9rem rgba(57, 56, 61, 0.5);
 }
