@@ -4,9 +4,12 @@
 1. This was an exercise from **DCI's WEB Development Course**, which I attended between 2019 - 2021. 
 2. We had 2 days to deliver the maximal we could.
 
+### Live Version
+* <a href="https://portfolio.bido.dev/" alt="deployed-version" target="_blank">Deployed Version</a>
+
 #### The mainly tasks were: 
 - [x] Build your **Portfolio** using Bootstrap and SASS;
-- [x] Deploy
+- [x] Deploy on Github Pages
 
 ### 🚀 Technologies used
 ![html](./doc/img/html.png)
