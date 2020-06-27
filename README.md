@@ -6,7 +6,6 @@
 
 #### The mainly tasks were: 
 - [x] Build your **Portfolio** using Bootstrap and SASS;
-- [x] Use **Sass** for this build;
 - [x] Deploy
 
 ### 🚀 Technologies used
@@ -15,3 +14,8 @@
 ![Sass](./doc/img/sass.png)
 ![JQuery](./doc/img/jquery.png)
 ![Bootstrap](./doc/img/bs.png)
+
+### Preview
+![landpage](./doc/img/land-page.png)
+![about](./doc/img/about.png)
+![contact](./doc/img/contact-form.png)
